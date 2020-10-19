@@ -3702,7 +3702,7 @@
                 "dev-master": "3.4-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Symfony\\Component\\Debug\\": ""
@@ -4571,7 +4571,7 @@
                 "url": "https://github.com/symfony/polyfill"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Symfony\\Polyfill\\Php70\\": ""
@@ -4788,7 +4788,7 @@
                 "dev-master": "3.4-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Symfony\\Component\\Process\\": ""
@@ -4874,7 +4874,7 @@
                 "dev-master": "3.4-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Symfony\\Component\\Routing\\": ""
@@ -5172,7 +5172,7 @@
                 "dev-master": "3.4-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "files": [
                 "Resources/functions/dump.php"
