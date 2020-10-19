@@ -51,8 +51,10 @@ class Upload extends Controller {
 		}
 
 		if (request()->hasFile($data['file']) && 'single' == $data['upload_type']) {
+
       Storage::has('public/' . $data['delete_file'])?Storage::delete('public/' . $data['delete_file']):'';
       return str_replace('public/' , '' , request()->file($data['file'])->store('public/' . $data['path']));
+
 		} elseif (request()->hasFile($data['file']) && 'files' == $data['upload_type']) {
 			$file      = request()->file($data['file']);
 			$size      = $file->getSize();
